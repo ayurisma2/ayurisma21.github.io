@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+    text-align: center;
+}
+
+.First{
+color: whitesmoke;
+border-color: aqua;
+display: inline-block;
+background-color: teal;
+padding: 20px;
+margin: 10px;
+border: solid;
+text-align: center;
+border-radius: 50px;
+}
+
+
+.quiz-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.images, .dropzones {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.images img {
+    width: 100px;
+    height: auto;
+    cursor: grab;
+    border: 3px solid #e0e0e0;
+    border-radius: 8px;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.images img:hover {
+    transform: scale(1.1);
+    border-color: #ff6f61;
+}
+
+.dropzones .dropzone {
+    width: 100px;
+    padding: 15px;
+    border: 2px dashed #b0c4de;
+    border-radius: 8px;
+    background-color: #fafafa;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.dropzones .dropzone:hover {
+    background-color: #ffefd5;
+    border-color: #ff6f61;
+    color: #ff6f61;
+}
+
+.First1{
+    color: whitesmoke;
+    border-color: aqua;
+    background-color: teal;
+    padding: 20px;
+    margin: 10px;
+    border: solid;
+    text-align: center;
+    border-radius: 50px;
+    }
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #32cd32;
+    font-weight: bold;
+}
