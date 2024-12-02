@@ -41,7 +41,9 @@ border-radius: 50px;
 
 .images img {
     width: 100px;
-    height: auto;
+    height: 100px;
+    margin: 5px;
+    object-fit: cover;
     cursor: grab;
     border: 3px solid #e0e0e0;
     border-radius: 8px;
@@ -54,7 +56,12 @@ border-radius: 50px;
 }
 
 .dropzones .dropzone {
-    width: 100px;
+    width: 120px;
+    height: 100px;
+    border: 2px dashed #ccc;
+    display: flex;
+    margin: 10px;
+    font-size: 14px;
     padding: 15px;
     border: 2px dashed #b0c4de;
     border-radius: 8px;
