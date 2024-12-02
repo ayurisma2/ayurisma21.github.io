@@ -22,9 +22,11 @@ border-radius: 50px;
 
 .quiz-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin: 30px auto;
+    flex-wrap: wrap;
+    gap: 20px;
     width: 80%;
     padding: 20px;
     border-radius: 10px;
@@ -40,10 +42,12 @@ border-radius: 50px;
 }
 
 .images img {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+    max-height: 100px;
     margin: 5px;
-    object-fit: cover;
+    object-fit: contain;
     cursor: grab;
     border: 3px solid #e0e0e0;
     border-radius: 8px;
@@ -57,7 +61,7 @@ border-radius: 50px;
 
 .dropzones .dropzone {
     width: 120px;
-    height: 100px;
+    height: 120px;
     border: 2px dashed #ccc;
     display: flex;
     margin: 10px;
